@@ -1,0 +1,71 @@
+.App {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dispatched-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dispatched-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dispatched-table th, .dispatched-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .dispatched-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .dispatched-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .item-description {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .in-transit {
+    background-color: #f39c12;
+  }
+  
+  .delivered {
+    background-color: #2ecc71;
+  }
+  
+  .pending {
+    background-color: #e74c3c;
+  }
